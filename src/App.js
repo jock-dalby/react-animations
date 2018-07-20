@@ -11,6 +11,7 @@ class App extends Component {
   }
 
   showModal = () => {
+    console.log('test')
     this.setState({modelOpen: true})
   }
 
